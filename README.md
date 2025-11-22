@@ -2,6 +2,16 @@
 
 考核五为opencv考核，在做考核之前需熟悉opencv是用来做什么的，常用函数有哪些
 
+**结构介绍**
+
+- assets文件夹：
+    - example.gif：示例gif动图
+    - origin.mp4：原始视频
+- code文件夹：
+    - 存放你的源代码以及CMakeLists.txt文件
+
+- README.md：任务说明文档
+
 ## 任务：物体识别
 
 将篮球从视频中识别，并将其框出来。
@@ -25,6 +35,8 @@ https://cloudconvert.com/webm-to-gif
 ```
 
 随后将动图命名为result.gif，存入assets文件夹里，并嵌入该markdown文件**运行结果result**。
+
+然后将你的源代码以及CMakeLists.txt文件放至code文件夹里。
 
 ## 运行结果
 
