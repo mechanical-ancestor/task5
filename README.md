@@ -38,6 +38,8 @@ https://cloudconvert.com/webm-to-gif
 
 然后将你的源代码以及CMakeLists.txt文件放至code文件夹里。
 
+最后把assets文件夹里的origin.mp4删除，只保留gif动图
+
 ## 运行结果
 
 **example:**
