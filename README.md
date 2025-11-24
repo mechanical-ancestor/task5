@@ -6,7 +6,7 @@
 
 - assets文件夹：
     - example.gif：示例gif动图
-    - origin.mp4：原始视频
+    - origin.mp4：需要识别的原始视频
 - code文件夹：
     - 存放你的源代码以及CMakeLists.txt文件
 
