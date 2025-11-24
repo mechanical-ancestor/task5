@@ -1,0 +1,3 @@
+/home/gan/opencv/build/CMakeFiles/main.dir
+/home/gan/opencv/build/CMakeFiles/edit_cache.dir
+/home/gan/opencv/build/CMakeFiles/rebuild_cache.dir
