@@ -34,7 +34,7 @@
 https://cloudconvert.com/webm-to-gif
 ```
 
-随后将动图命名为result.gif，存入assets文件夹里，并嵌入该markdown文件**运行结果-> your result**。
+随后将动图命名为result.gif，存入assets文件夹里，并嵌入该markdown文件**运行结果-> result**。
 
 然后将你的源代码以及CMakeLists.txt文件放至code文件夹里。
 
@@ -46,7 +46,7 @@ https://cloudconvert.com/webm-to-gif
 
 ![result.gif](/assets/example.gif)
 
-**your result:**
+**result:**
 
 
 
