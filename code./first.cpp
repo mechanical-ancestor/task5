@@ -1,4 +1,4 @@
-//学习如何检测形状或图像中的轮廓
+
 #include<opencv2/imgcodecs.hpp>
 #include<opencv2/highgui.hpp>
 #include<opencv2/imgproc.hpp>
