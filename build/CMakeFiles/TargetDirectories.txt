@@ -1,3 +1,0 @@
-/home/wang-zhichou/桌面/task5/build/CMakeFiles/test.dir
-/home/wang-zhichou/桌面/task5/build/CMakeFiles/edit_cache.dir
-/home/wang-zhichou/桌面/task5/build/CMakeFiles/rebuild_cache.dir
