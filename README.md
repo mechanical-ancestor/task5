@@ -47,8 +47,7 @@ https://cloudconvert.com/webm-to-gif
 ![result.gif](/assets/example.gif)
 
 **result:**
-
-
+![result.gif](/assets/result.gif)
 
 
 
