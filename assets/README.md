@@ -44,9 +44,11 @@ https://cloudconvert.com/webm-to-gif
 
 **example:**
 
-![result.gif](/assets/example.gif)
+![result.gif](/home/violet/task5/assets/example.gif)
 
 **result:**
+![result.gif](/home/violet/task5/assets/result.gif)
+
 
 
 

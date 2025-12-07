@@ -1,3 +1,0 @@
-/home/violet/task5/.vscode/build/CMakeFiles/basketball_app.dir
-/home/violet/task5/.vscode/build/CMakeFiles/edit_cache.dir
-/home/violet/task5/.vscode/build/CMakeFiles/rebuild_cache.dir
