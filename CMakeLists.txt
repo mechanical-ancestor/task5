@@ -18,10 +18,10 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 include_directories(include)
 
 # 添加可执行文件
-add_executable(main code3.cpp)
+add_executable(code code.cpp)
 
 # 链接OpenCV库
-target_link_libraries(main ${OpenCV_LIBS})
+target_link_libraries(code ${OpenCV_LIBS})
 
 # 设置编译属性
-target_compile_options(main PRIVATE -Wall -Wextra -O2)
+target_compile_options(code PRIVATE -Wall -Wextra -O2)

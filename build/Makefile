@@ -129,29 +129,66 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-code3.o: code3.cpp.o
-.PHONY : code3.o
+#=============================================================================
+# Target rules for targets named code
+
+# Build rule for target.
+code: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 code
+.PHONY : code
+
+# fast build rule for target.
+code/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/build
+.PHONY : code/fast
+
+code.o: code.cpp.o
+.PHONY : code.o
 
 # target to build an object file
-code3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/code3.cpp.o
-.PHONY : code3.cpp.o
+code.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/code.cpp.o
+.PHONY : code.cpp.o
 
-code3.i: code3.cpp.i
-.PHONY : code3.i
+code.i: code.cpp.i
+.PHONY : code.i
 
 # target to preprocess a source file
-code3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/code3.cpp.i
-.PHONY : code3.cpp.i
+code.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/code.cpp.i
+.PHONY : code.cpp.i
 
-code3.s: code3.cpp.s
-.PHONY : code3.s
+code.s: code.cpp.s
+.PHONY : code.s
 
 # target to generate assembly for a file
-code3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/code3.cpp.s
-.PHONY : code3.cpp.s
+code.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/code.cpp.s
+.PHONY : code.cpp.s
+
+opencv_c++.o: opencv_c++.cpp.o
+.PHONY : opencv_c++.o
+
+# target to build an object file
+opencv_c++.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/opencv_c++.cpp.o
+.PHONY : opencv_c++.cpp.o
+
+opencv_c++.i: opencv_c++.cpp.i
+.PHONY : opencv_c++.i
+
+# target to preprocess a source file
+opencv_c++.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/opencv_c++.cpp.i
+.PHONY : opencv_c++.cpp.i
+
+opencv_c++.s: opencv_c++.cpp.s
+.PHONY : opencv_c++.s
+
+# target to generate assembly for a file
+opencv_c++.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/opencv_c++.cpp.s
+.PHONY : opencv_c++.cpp.s
 
 # Help Target
 help:
@@ -161,10 +198,14 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... code"
 	@echo "... main"
-	@echo "... code3.o"
-	@echo "... code3.i"
-	@echo "... code3.s"
+	@echo "... code.o"
+	@echo "... code.i"
+	@echo "... code.s"
+	@echo "... opencv_c++.o"
+	@echo "... opencv_c++.i"
+	@echo "... opencv_c++.s"
 .PHONY : help
 
 
