@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 3.10)
-project(task_5)
-find_package(OpenCV 4 REQUIRED)
+project(basketball_detect)
+
+find_package(OpenCV REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
-add_executable(task_5 5.cpp)
-target_link_libraries(task_5 ${OpenCV_LIBS})
+
+add_executable(basketball_detect basketball_detect.cpp)
+target_link_libraries(basketball_detect ${OpenCV_LIBS})
+
