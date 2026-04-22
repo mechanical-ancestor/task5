@@ -42,12 +42,9 @@ https://cloudconvert.com/webm-to-gif
 
 ## 运行结果
 
-**example:**
-
-![result.gif](/assets/example.gif)
-
 **result:**
 
+![result.gif](/assets/result.gif)
 
 
 

@@ -94,7 +94,7 @@ int main() {
 			float radius;
 			minEnclosingCircle(contour, center, radius);//拟合能完全包裹的最小圆形，输出圆心和半径
 
-			////计算圆形度（这里不需要哦
+			////计算圆形度（这里感觉不用
 			//double perimeter = arcLength(contour, true); //计算周长，true表示轮廓是闭合的
 			//if (perimeter > 0) { 
 			//	double circularity = 4 * CV_PI * area / (perimeter * perimeter); //圆度计算公式
